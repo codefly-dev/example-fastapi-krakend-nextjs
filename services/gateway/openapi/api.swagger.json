@@ -1,0 +1,1 @@
+{"swagger":"2.0","info":{"title":"fastapi-krakend-next/gateway","version":"0.0.0"},"paths":{"/fastapi-krakend-next/server/version":{"get":{"summary":"Version","operationId":"version_version_get","responses":{"200":{"description":"Successful Response"}}}}}}

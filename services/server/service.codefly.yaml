@@ -1,0 +1,13 @@
+name: server
+version: 0.0.0
+agent:
+    kind: codefly:service
+    name: python-fastapi
+    version: 0.0.81
+    publisher: codefly.dev
+endpoints:
+    - name: rest
+      visibility: public
+spec:
+    hot-reload: true
+    public-endpoint: true

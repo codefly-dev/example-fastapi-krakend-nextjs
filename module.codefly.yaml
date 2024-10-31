@@ -1,0 +1,6 @@
+kind: module
+name: fastapi-krakend-next
+services:
+    - name: server
+    - name: web
+    - name: gateway

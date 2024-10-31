@@ -1,0 +1,12 @@
+name: gateway
+version: 0.0.0
+agent:
+    kind: codefly:service
+    name: krakend
+    version: 0.0.58
+    publisher: codefly.dev
+service-dependencies:
+    - name: server
+endpoints:
+    - name: rest
+      visibility: public
